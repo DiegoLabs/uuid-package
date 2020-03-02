@@ -25,7 +25,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Ddg\\Test\\": "tests"
+            "Ddlabs\\Test\\": "tests"
         }
     },
     "scripts": {

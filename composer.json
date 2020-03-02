@@ -1,0 +1,39 @@
+{
+    "name": "ddlabs/uuid-package",
+    "description": "Package to allow you to use UUID for primary key in Laravel Models",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Van Johnson",
+            "email": "eric@diegodev.com",
+            "homepage": "https://twitter.com/shocm",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "webpatser/laravel-uuid": "^3.0",
+        "illuminate/support": "~5.8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ddlabs\\UUID\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ddg\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+        }
+    }
+}

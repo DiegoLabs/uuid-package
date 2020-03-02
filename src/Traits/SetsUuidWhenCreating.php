@@ -1,6 +1,6 @@
 <?php
 
-namespace Ddg\Lexted\Traits;
+namespace Ddlabs\UUID\Traits;
 
 use App\Exceptions\InvalidUuidSuppliedException;
 use Webpatser\Uuid\Uuid;

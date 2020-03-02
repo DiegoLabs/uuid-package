@@ -3,6 +3,7 @@
 namespace Ddlabs\Uuid\Traits;
 
 use App\Exceptions\InvalidUuidSuppliedException;
+use Webpatser\Uuid\Uuid;
 
 trait SetsUuidWhenCreating
 {

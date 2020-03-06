@@ -1,3 +1,5 @@
+![DiegoDev Labs](https://www.dropbox.com/s/3fufybtdhru6mhb/DiegoLabs%20Logo.png)
+
 # DiegoLabs UUID Package
 
 Simple package to allow you to add UUID to Laravel Models via a trait. 

@@ -1,4 +1,4 @@
-![DiegoDev Labs](https://www.dropbox.com/s/3fufybtdhru6mhb/DiegoLabs%20Logo.png)
+![DiegoDev Labs](https://dl.dropboxusercontent.com/s/3fufybtdhru6mhb/DiegoLabs%20Logo.png)
 
 # DiegoLabs UUID Package
 

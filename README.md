@@ -12,10 +12,31 @@ passed to a backend via an API. They may already have a UUID associated with it.
 
 ## Useage 
 
-Simple add the trait to the model you wish to use UUID as the primary ID. 
-
-```
-use SetsUuidWhenCreating
-```
-
 ID must be configured in the database to accept a UUID. 
+
+For Migrations:
+``` 
+public function up()
+{
+    Schema::create('your_models', function (Blueprint $table) {
+        $table->uuid('id'); // Set to uuid
+        $table->string('name');
+        $table->timestamps();
+        $table->primary('id'); // Add primary key
+    });
+}
+```
+For Models:
+```
+use Ddlabs\Uuid\Traits\SetsUuidWhenCreating;
+
+class YourModel extends Model
+{
+    use SetsUuidWhenCreating;
+
+    public $incrementing = false;
+
+    protected $keyType = 'string';
+   ...
+}
+```

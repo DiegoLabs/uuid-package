@@ -10,7 +10,7 @@ you have a workflow that creates a UUID by default. If the UUID is version 4 com
 just us the UUID passed to it. We use this from time to time when records are created on a mobile device then
 passed to a backend via an API. They may already have a UUID associated with it. 
 
-## Useage 
+## Usage 
 
 ID must be configured in the database to accept a UUID. 
 

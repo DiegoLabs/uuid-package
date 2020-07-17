@@ -4,6 +4,11 @@
 
 Simple package to allow you to add UUID to Laravel Models via a trait. 
 
+## Install
+```
+ composer require ddlabs/uuid-package
+ ```
+
 ## Traits
 * __SetsUuidWhenCreating__ - This sets the primary key of the model to a UUID. It allows you to pass a UUID if 
 you have a workflow that creates a UUID by default. If the UUID is version 4 compliant, then the trait will 
